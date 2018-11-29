@@ -27,7 +27,7 @@ Missingno can help plot your data as “a set of minimum-enclosure convex hulls�
 
 As you can see, with enough points you can reflect the geological area being mapped. Compare with the image of Manhattan below.
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d193453.93196775872!2d-74.06811207074807!3d40.74631763471317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1543456161775" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+(/images/NPCC500year_floodProj_large.jpg)
 
 And while we aren’t all fortunate enough to have subsequent geographical information in our datasets, `missingno` can still compute a quadtree with the nullity distribution. ` msno.geoplot(collisions, x='LONGITUDE', y='LATITUDE')`
 
