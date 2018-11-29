@@ -7,7 +7,7 @@ Visualizations, in my naive opinion, are the cornerstone to understanding what y
 
 `missingno` is my best tool in my tool belt for finding about NaN values in a dataset. There are plently of great tools to explore your data. When starting out on a project, your missing NaN values could be an important factor in making decisions and there is where `missingno` shines. This library “works by converting tabular data matrices into boolean masks based on whether individual entries contain data (which evaluates to true) or left empty (which evaluates to false).” (Bilogur) This “nullity matrix” is what is leveraged against the underlying packages NumPy, pandas, SciPy, matplotlib, and seaborn (Bilogur).
 
-The first visualization is an easy one `msno.bar`. This returns a bar graph of the showing how much is missing from each column. This makes for comparing the missing data from different features easier while showing where there could be no data at all. You can quickly see in portion what data is missing and from where.
+The first visualization is an easy one `msno.bar`. This returns a bar graph of the showing how much is missing from each column. This makes for comparing the missing data from different features easier while showing where there could be no data at all. You can quickly see in portion what data is missing and from where. As it looks, there is roughly the same amount of missing data across our dataset but we can't see if there are any patterns to it.
 
 ![huh](/images/msno_post/huh.png)
 
@@ -15,17 +15,17 @@ The first visualization is an easy one `msno.bar`. This returns a bar graph of t
 
 ![temp](/images/msno_post/temp.png)
 
-If there are patterns that you are unable to spot, due to either obscurity or some other reason, missingno can create a correlation heatmap. It will not display any variables that are always full or always empty. “Entries marked <1 or >-1 are have a correlation that is close to being exactingly negative or positive, but is still not quite perfectly so (Bilogur). This can point you towards some steps you can take to recreate the data or drop columns altogether. Take a look at their README for a good primer.
+If there are patterns that you are unable to spot, due to either obscurity or some other reason, missingno can create a correlation heatmap. It will not display any variables that are always full or always empty. “Entries marked <1 or >-1 are have a correlation that is close to being exactingly negative or positive, but is still not quite perfectly so (Bilogur). This can point you towards some steps you can take to recreate the data or drop columns altogether. Take a look at their [README](https://github.com/ResidentMario/missingno)  for a good primer.
 
 ![sure](/images/msno_post/sure.png)
 
-Going forward with `missingno` there are other things in our data that may be good to know before we set out. Some patterns are hard to check, specifically when it comes to modeling geographic data. The next few visualizations rely on `geoplot` and `geopandas` libraries. If you are a unfamiliar with these libraries or want to brush up, check them out.
+Going forward with `missingno` there are other things in our data that may be good to know before we set out. Some patterns are hard to check, specifically when it comes to modeling geographic data. The next few visualizations rely on `geoplot` and `geopandas` libraries. If you are a unfamiliar with these libraries or want to brush up, check [them](https://github.com/ResidentMario/geoplot) [put](http://geopandas.org/).
 
-Missingno can help plot your data as “a set of minimum-enclosure convex hulls”. A convex closure of a set X of points in the Euclidean plane or in a Euclidean space is the smallest convex set that contains X. For instance, when X is a bounded subset of the plane, the convex hull may be visualized as the shape enclosed by a rubber band stretched around X (Wiki)The following uses a sample of the NYPD Motor Vehicle Collisions Dataset dataset. When latitude and longitude is paired with another geographic subset of data, zip codes, `missinggo` maps the values. The color gradient makes it easy to see if there is a physical area that has more missing data than other locations.
+Missingno can help plot your data as “a set of minimum-enclosure convex hulls”. A convex closure of a set X of points in the Euclidean plane or in a Euclidean space is the smallest convex set that contains X. For instance, when X is a bounded subset of the plane, the convex hull may be visualized as the shape enclosed by a rubber band stretched around X.(Wiki) The following uses a sample of the NYPD Motor Vehicle Collisions Dataset dataset. When latitude and longitude is paired with another geographic subset of data, zip codes, `missinggo` maps the values. The color gradient makes it easy to see if there is a physical area that has more missing data than other locations.
 
 ![frommissingno](/images/msno_post/msno_convex_hulls.png)
 
-As you can see, with enough points you can reflect the geological area being mapped. Compare with the image of Manhattan below.
+As you can see, with enough points you can reflect the geological area being mapped. Compare with the image of Manhattan below, courtesy of NOAA.
 
 ![ThanksNOAA](/images/msno_post/NPCC500year_floodProj_large.jpg)
 
