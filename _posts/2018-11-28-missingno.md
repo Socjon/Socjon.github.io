@@ -19,7 +19,7 @@ If there are patterns that you are unable to spot, due to either obscurity or so
 
 ![sure](/images/msno_post/sure.png)
 
-Going forward with `missingno` there are other things in our data that may be good to know before we set out. Some patterns are hard to check, specifically when it comes to modeling geographic data. The next few visualizations rely on `geoplot` and `geopandas` libraries. If you are a unfamiliar with these libraries or want to brush up, check [them](https://github.com/ResidentMario/geoplot) [put](http://geopandas.org/).
+Going forward with `missingno` there are other things in our data that may be good to know before we set out. Some patterns are hard to check, specifically when it comes to modeling geographic data. The next few visualizations rely on `geoplot` and `geopandas` libraries. If you are a unfamiliar with these libraries or want to brush up, check [them](https://github.com/ResidentMario/geoplot) [out](http://geopandas.org/).
 
 Missingno can help plot your data as “a set of minimum-enclosure convex hulls”. A convex closure of a set X of points in the Euclidean plane or in a Euclidean space is the smallest convex set that contains X. For instance, when X is a bounded subset of the plane, the convex hull may be visualized as the shape enclosed by a rubber band stretched around X.(Wiki) The following uses a sample of the NYPD Motor Vehicle Collisions Dataset dataset. When latitude and longitude is paired with another geographic subset of data, zip codes, `missinggo` maps the values. The color gradient makes it easy to see if there is a physical area that has more missing data than other locations.
 
