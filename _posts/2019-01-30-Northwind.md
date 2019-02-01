@@ -53,6 +53,8 @@ Since there were multiple groups (levels of discount), an ANOVA test would be th
 * Comparing between the different levels of discount, the greatest effect is seen at no discount to a 10% discount.
 * Further testing needs to account for orders with different discount levels within the same order
 
+---
+
 
 The following three hypothesis tests I performed, I checked using a parametric test (independent T-test) and a non-parametric test (Mann-Whitney U test). 
 
@@ -98,6 +100,8 @@ alpha = 0.05
 - p-value > alpha:: 0.7227 > 0.05 - T-test
 - Further testing: choosing a different metric and test out hypothesis again.
 
+---
+
 3)  Does having 'manager' in your title effect the amount a customer orders?
 
 H null: Having manager in your title, the amount a customer orders doesn't change  
@@ -114,6 +118,8 @@ Failed to reject the null hypothesis. As a customer having manager in your title
 p-value > alpha :: 0.2241 > 0.05 - Mann-Whitney
 p-value > alpha :: 0.5416 > 0.05 - T-test
 Further testing: change the criteria in which the customers are grouped. Include 'owner' title with the 'manager' title and compare results.
+
+---
 
 4) Is there a difference in quantity of products given their average shelf life?
 H null: The quantity of perishable products ordered is the same as the quantity of non-perishable products ordered  
