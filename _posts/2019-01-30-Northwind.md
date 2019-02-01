@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Northwind
+title: Northwind - SQL and Hypothesis testing 
 ---
 
 I used the Northwind database to showcase some SQL skills as well as practicing some foundational knowledge of statistical testing. All the coding is done in `python`.
