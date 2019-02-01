@@ -113,10 +113,10 @@ alpha = 0.05
 
 ### 3) Results 
 
-Failed to reject the null hypothesis. As a customer having manager in your title, the quantity ordered doesn't signifgantly change compared to customers without that title
-p-value > alpha :: 0.2241 > 0.05 - Mann-Whitney
-p-value > alpha :: 0.5416 > 0.05 - T-test
-Further testing: change the criteria in which the customers are grouped. Include 'owner' title with the 'manager' title and compare results.
+- Failed to reject the null hypothesis. As a customer having manager in your title, the quantity ordered doesn't signifgantly change compared to customers without that title
+- p-value > alpha :: 0.2241 > 0.05 - Mann-Whitney
+- p-value > alpha :: 0.5416 > 0.05 - T-test
+- Further testing: change the criteria in which the customers are grouped. Include 'owner' title with the 'manager' title and compare results.
 
 ***********
 

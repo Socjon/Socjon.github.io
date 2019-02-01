@@ -36,7 +36,7 @@ I’ve found when answering one question, more tend to pop up. You gain differen
 # **::Hypothesis Questions::**
 
 
-### 1) Does having 'manager' in your title effect the amount a customer orders?
+### 1) Do discounts have a statistically significant effect on the number of products customers order? If so, at what level(s) of discount?  
 
 H null: There is no difference in the number of products customers order given there is a discount  
 H alt: There is an increase in the number of products customers order given there is a discount  
@@ -113,10 +113,10 @@ alpha = 0.05
 
 ### 3) Results 
 
-Failed to reject the null hypothesis. As a customer having manager in your title, the quantity ordered doesn't signifgantly change compared to customers without that title
-p-value > alpha :: 0.2241 > 0.05 - Mann-Whitney
-p-value > alpha :: 0.5416 > 0.05 - T-test
-Further testing: change the criteria in which the customers are grouped. Include 'owner' title with the 'manager' title and compare results.
+- Failed to reject the null hypothesis. As a customer having manager in your title, the quantity ordered doesn't signifgantly change compared to customers without that title
+- p-value > alpha :: 0.2241 > 0.05 - Mann-Whitney
+- p-value > alpha :: 0.5416 > 0.05 - T-test
+- Further testing: change the criteria in which the customers are grouped. Include 'owner' title with the 'manager' title and compare results.
 
 ***********
 
