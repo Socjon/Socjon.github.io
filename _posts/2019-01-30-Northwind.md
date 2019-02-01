@@ -36,7 +36,7 @@ I’ve found when answering one question, more tend to pop up. You gain differen
 # **::Hypothesis Questions::**
 
 
-### 1) Does having 'manager' in your title effect the amount a customer orders?
+### 1) Do discounts have a statistically significant effect on the number of products customers order? If so, at what level(s) of discount?  
 
 H null: There is no difference in the number of products customers order given there is a discount  
 H alt: There is an increase in the number of products customers order given there is a discount  
