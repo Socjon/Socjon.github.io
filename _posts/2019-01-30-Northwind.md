@@ -45,7 +45,7 @@ alpha = .05
 
 Since there were multiple groups (levels of discount), an ANOVA test would be the best choice to use. The ANOVA test will show if there is a significant difference between no discount and discount. If there is a significant outcome, I plan on using the Tukey HSD (honestly significant difference) test to determine if the relationship between multiple levels of discount are statistically significant. This will be a post hoc test.
 
-![Tukey test](/images/nwind/discount tukey.png)
+![Tukey test](/images/nwind/discount_tukey.png)
 
 ### 1) Results
 
