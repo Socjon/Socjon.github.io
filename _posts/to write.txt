@@ -1,0 +1,9 @@
+Here are the seven required blog topics:
+
+    Why did you decide to learn data science?
+    Write a post on a visualization technique of your choice (line plot, histogram, heat-map, etc). How is it being used to answer analytical problems and what are it’s strengths and weaknesses?
+    Write about a topic you are finding particularly challenging. Do it in the form of a tutorial to help another aspiring data scientist to learn that topic.
+    Write a tutorial (with a data set and code sample) on something that we did not cover during the course that you think might be interesting to other people taking the course. It can be a topic we didn’t cover at all, or can just go deeper into a topic that we did cover.
+    Write about your experience with model selection, model validation and hyper-parameter tuning for a data set you’ve worked with on the program. Include hints and tips that would help another data science student do a better job of model selection, validation and tuning.
+    Pick a data science paper written in the last 18 months and rewrite it to explain it to a non-technical business stakeholder. Focus on why it’s important and why it would matter to them.
+    Pick one of the most influential papers in data science (ask us for a list!) and rewrite it to explain it to a non-technical business stakeholder. Focus on why it’s important and why it would matter to them.
