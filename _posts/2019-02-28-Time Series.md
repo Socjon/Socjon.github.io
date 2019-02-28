@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Defining a Time Series 
